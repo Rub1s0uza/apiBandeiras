@@ -1,0 +1,26 @@
+    body {
+        height: 100vh; /* Faz com que a div ocupe 100% da altura da tela */
+        background-image: url('img/cara_aviao.gif'); /* Substitua pelo caminho da sua imagem */
+        background-size: cover; /* Faz a imagem cobrir toda a área */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Impede que a imagem se repita */
+    }
+
+
+    #flagImage {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        }
+
+    .centro{
+        display: flex; /* Ativa o Flexbox */
+        flex-direction: column; /* Organiza os elementos verticalmente */
+        justify-content: center; /* Centraliza verticalmente */
+        align-items: center; /* Centraliza horizontalmente */
+        height: 70vh; /* Faz com que a div ocupe 100% da altura da tela */
+        text-align: center; /* Centraliza o texto */
+        color: white;
+        font-weight: "700";
+    }
